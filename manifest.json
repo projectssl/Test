@@ -1,0 +1,25 @@
+{
+  "name": "Test Power-Up",
+  "description": "A simple Trello Power-Up for testing.",
+  "author": "Sarah Louise – Steph Marketing",
+  "icon": {
+    "url": "https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
+  },
+  "capabilities": {
+    "board-buttons": [
+      {
+        "text": "Test Button",
+        "callback": "showAlert"
+      }
+    ]
+  },
+  "connectors": {},
+  "entry": {
+    "client": "client.js"
+  },
+  "entryPoints": {
+    "showAlert": {
+      "url": "./index.html"
+    }
+  }
+}
