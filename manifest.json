@@ -19,7 +19,7 @@
   },
   "entryPoints": {
     "showAlert": {
-      "url": "./index.html"
+      "url": "https://projectssl.github.io/Test/index.html"
     }
   }
 }
